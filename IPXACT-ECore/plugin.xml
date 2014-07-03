@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated abstractionDefinition -->
+      <package
+            uri="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009"
+            class="org.spiritconsortium.xml.schema.spirit._1685._2009._2009Package"
+            genModel="model/abstractionDefinition.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated abstractionDefinition -->
+      <parser
+            type="_2009"
+            class="org.spiritconsortium.xml.schema.spirit._1685._2009.util._2009ResourceFactoryImpl"/>
+   </extension>
+
+</plugin>
